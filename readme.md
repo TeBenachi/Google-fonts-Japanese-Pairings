@@ -4,5 +4,8 @@
 
 各ボックスの背景とテキストの色は、アクセシビリティー WCAG の得点が、最低でも AA となっています。
 
-日本語テキストに含まれる約物を半角にするために、Yaku Han JP を使用しています。
-https://github.com/qrac/yakuhanjp
+[デモ](https://tebenachi.github.io/Google-fonts-Japanese-Pairings/)
+
+日本語テキストに含まれる約物を半角にするために、[Yaku Han JP](https://github.com/qrac/yakuhanjp) を使用しています。
+
+[Yaku Han JP を使った見本](https://raw.githubusercontent.com/TeBenachi/Google-fonts-Japanese-Pairings/master/assets/img/Yakuhan.jpg)
