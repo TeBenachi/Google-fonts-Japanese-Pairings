@@ -1,0 +1,436 @@
+@font-face {
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Noto Sans JP Regular"), url("../fonts/NotoSansJP-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Noto Sans JP";
+  font-style: normal;
+  font-weight: bold;
+  src: local("Noto Sans JP JP Bold"), url("../fonts/NotoSansJP-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "YakuHanJP";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/YakuHanJP-Regular.woff2") format("woff2"), url("../fonts/YakuHanJP-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "YakuHanJP";
+  font-style: normal;
+  font-weight: bold;
+  src: url("../fonts/YakuHanJP-Bold.woff2") format("woff2"), url("../fonts/YakuHanJP-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Libre Baskerville";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/LibreBaskerville-Regular.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Arima Madurai";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/ArimaMadurai-Regular.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Oswald-Regular.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/Oswald-Medium.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Amatic SC";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/AmaticSC-Regular.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Amatic SC";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/AmaticSC-Bold.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Satisfy";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Satisfy-Regular.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Patrick Hand";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/PatrickHand-Regular.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Lobster Two";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/LobsterTwo-Regular.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Patrick Hand SC";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/PatrickHandSC-Regular.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Handlee";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Handlee-Regular.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "M PLUS Rounded 1c";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/MPLUSRounded1c-Medium.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "M PLUS Rounded 1c";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../fonts/MPLUSRounded1c-Regular.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/PlayfairDisplay-Regular.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Barlow-Regular.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Truculenta";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Truculenta_16pt-Regular.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Mali";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Mali-Regular.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Rancho";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Rancho-Regular.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Lora-Regular.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Fira Sans Condensed";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/FiraSansCondensed-Regular.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Barrio";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Barrio-Regular.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Ribeye Marrow";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/RibeyeMarrow-Regular.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Gidugu";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Gidugu-Regular.ttf") format("woff2");
+}
+
+@font-face {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/Merriweather-Regular.ttf") format("woff2");
+}
+
+body,
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: "YakuHanJP", "Noto Sans JP", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  word-wrap: break-word;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
+
+.col-6 {
+  margin: 1rem auto;
+  padding: 1.5rem;
+  border: 3px solid #ffffff;
+}
+
+/*** FONTS ***/
+.cookie {
+  font-family: "Cookie", cursive;
+}
+
+.merriweather {
+  font-family: "Merriweather", serif;
+}
+
+.libre {
+  font-family: "Libre Baskerville", serif;
+}
+
+.arima {
+  font-family: "Arima Madurai", cursive;
+}
+
+.oswald {
+  font-family: "Oswald", sans-serif;
+}
+
+.kosugi {
+  font-family: "YakuHanJP", "Kosugi Maru", sans-serif;
+}
+
+.noto {
+  font-family: "YakuHanJP", "Noto Sans JP", sans-serif;
+}
+
+.mplus {
+  font-family: "YakuHanJP", "M PLUS Rounded 1c", sans-serif;
+}
+
+.amatic {
+  font-family: "Amatic SC", cursive;
+}
+
+.satisfy {
+  font-family: "Satisfy", cursive;
+}
+
+.patrick {
+  font-family: "Patrick Hand", cursive;
+}
+
+.playfair {
+  font-family: "Playfair Display", serif;
+}
+
+.barlow {
+  font-family: "Barlow Condensed", sans-serif;
+}
+
+.truculenta {
+  font-family: "Truculenta", sans-serif;
+}
+
+.mali {
+  font-family: "Mali", cursive;
+}
+
+.rancho {
+  font-family: "Rancho", cursive;
+}
+
+.lora {
+  font-family: "Lora", serif;
+}
+
+.fira {
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+
+.barrio {
+  font-family: "Barrio", cursive;
+}
+
+.ribeye {
+  font-family: "Ribeye Marrow", cursive;
+}
+
+.gidugu {
+  font-family: "Gidugu", sans-serif;
+}
+
+.merriweather {
+  font-family: "Merriweather", serif;
+}
+
+/** Colors **/
+
+.chocolate {
+  background-color: #463f3a;
+  color: #f4f3ee;
+}
+
+.navy {
+  background-color: #22223b;
+  color: #f2e9e4;
+}
+
+.light-brown {
+  background-color: #bcb8b1;
+  color: #463f3a;
+}
+
+.purple {
+  background-color: #6d597a;
+  color: #ffffff;
+}
+
+.sunset {
+  background-color: #fefae0;
+  color: #283618;
+}
+
+.white-gold {
+  background-color: white;
+  color: #514100;
+}
+
+.sage {
+  background-color: #bee3db;
+  color: #38302e;
+}
+
+.dark-sage {
+  background-color: #2f4858;
+  color: #daf7dc;
+}
+
+.light-violet {
+  background-color: #6d597a;
+  color: #22223b;
+}
+
+.light-beige {
+  background-color: #f2e9e4;
+  color: #4f000b;
+}
+
+.white-forest {
+  background-color: white;
+  color: #514100;
+}
+
+.pink {
+  background-color: #f2e9e4;
+  color: #22223b;
+}
+
+.light-pink {
+  background-color: #f6f3fd;
+  color: #1b263b;
+}
+
+.bright-pink {
+  background-color: #df82a2;
+  color: #081c15;
+}
+
+.orange {
+  background-color: #f48c06;
+  color: #293241;
+}
+
+.lime {
+  background-color: #23828f;
+  color: #ffffff;
+}
+
+.light-blue {
+  background-color: #d4fdfc;
+  color: #1d3557;
+}
+
+.red-beans {
+  background-color: #4f000b;
+  color: #f2e9e4;
+}
+
+.blackboard {
+  background-color: #121113;
+  color: whitesmoke;
+}
+
+.light-grey {
+  background-color: #f7f7f2;
+  color: #222725;
+}
+
+.dark-grey {
+  background-color: #343a40;
+  /* color: #7c6a0a; */
+  color: white;
+}
