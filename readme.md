@@ -8,4 +8,4 @@
 
 日本語テキストに含まれる約物を半角にするために、[Yaku Han JP](https://github.com/qrac/yakuhanjp) を使用しています。
 
-[Yaku Han JP を使った見本](https://raw.githubusercontent.com/TeBenachi/Google-fonts-Japanese-Pairings/master/assets/img/Yakuhan.jpg)
+![Yaku Han JP を使った見本](https://raw.githubusercontent.com/TeBenachi/Google-fonts-Japanese-Pairings/master/assets/img/Yakuhan.jpg)
